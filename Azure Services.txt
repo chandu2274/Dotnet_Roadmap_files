@@ -1,0 +1,318 @@
+Azure Services
+
+Phase 1: Azure Fundamentals
+
+What is Cloud Computing?
+What is Microsoft Azure?
+Azure Portal
+Azure Subscription
+Resource Groups
+Regions and Availability Zones
+Azure Resource Manager (ARM)
+Azure CLI
+Azure PowerShell
+Azure Pricing Basics
+Shared Responsibility Model
+IaaS vs PaaS vs SaaS
+Important Concepts
+Scalability
+Elasticity
+High Availability
+Disaster Recovery
+Fault Tolerance
+Pay-as-you-go
+-----------------------------------------------------------
+Phase 2: Azure Compute ⭐⭐⭐⭐⭐
+
+These services run your .NET applications.
+
+1. Azure App Service
+
+Most important for .NET developers.
+
+Learn:
+
+What is App Service?
+App Service Plan
+Deploy ASP.NET Core API
+Configuration
+Environment Variables
+Deployment Slots
+Scaling
+Custom Domains
+HTTPS
+Application Logs
+2. Azure Functions
+
+Learn:
+
+What are Serverless Functions?
+HTTP Trigger
+Timer Trigger
+Queue Trigger
+Blob Trigger
+Durable Functions basics
+Background Processing
+3. Azure Container Apps
+
+Learn:
+
+What are Containers?
+Docker Basics
+Deploy .NET API
+Container Apps
+Scaling
+4. Azure Kubernetes Service (AKS)
+
+Learn:
+
+What is Kubernetes?
+Pods
+Deployments
+Services
+Scaling
+AKS Basics
+
+For your first Azure project, App Service is more important than AKS.
+-------------------------------------------------------------------------------
+Phase 3: Azure Database ⭐⭐⭐⭐⭐
+1. Azure SQL Database
+
+Must Learn
+
+What is Azure SQL?
+SQL Server vs Azure SQL
+Create Database
+Connect from ASP.NET Core
+Connection Strings
+Firewall Rules
+Authentication
+Backup
+Monitoring
+Performance
+2. Azure Cosmos DB
+
+Learn:
+
+What is NoSQL?
+When to use Cosmos DB
+Containers
+Partition Keys
+.NET SDK Basics
+3. Azure Cache for Redis
+
+Learn:
+
+What is Caching?
+Why Redis?
+Distributed Cache
+Session Caching
+API Response Caching
+-----------------------------------------------------------
+Phase 4: Azure Storage ⭐⭐⭐⭐
+1. Azure Blob Storage
+
+Learn:
+
+Storage Account
+Containers
+Blob Upload
+Blob Download
+Blob Metadata
+SAS Tokens
+Access Tiers
+
+Example: Upload employee documents or product images.
+
+2. Azure Queue Storage
+
+Learn:
+
+Queue Messages
+Background Processing
+Queue Triggers
+3. Azure Table Storage
+
+Learn:
+
+NoSQL Key-Value Storage
+Partition Key
+Row Key
+---------------------------------------------------------------------------
+Phase 5: Azure Messaging ⭐⭐⭐⭐⭐
+1. Azure Service Bus
+
+Very important for senior .NET developers.
+
+Learn:
+
+Queues
+Topics
+Subscriptions
+Message Sending
+Message Receiving
+Dead-Letter Queue
+Retry
+Duplicate Detection
+Message Sessions
+Example
+Order API
+    ↓
+Azure Service Bus
+    ↓
+Azure Function
+    ↓
+Email / Inventory Update
+2. Event Grid
+
+Learn:
+
+Event-Driven Architecture
+Event Publishers
+Event Subscribers
+Blob Events
+------------------------------------------------------------
+Phase 6: Azure Security ⭐⭐⭐⭐⭐
+1. Microsoft Entra ID
+Authentication
+Authorization
+App Registrations
+OAuth 2.0
+OpenID Connect
+JWT
+Roles
+Claims
+2. Azure Key Vault
+Store Secrets
+Connection Strings
+API Keys
+Certificates
+Managed Identity
+3. Managed Identity
+Why use it?
+System-Assigned Identity
+User-Assigned Identity
+Secure Azure Service Access
+Example
+ASP.NET Core API
+       ↓
+Managed Identity
+       ↓
+Azure Key Vault
+       ↓
+Database Connection String
+--------------------------------------------------------------------
+Phase 7: Azure Networking
+
+For a 6-year developer, understand the basics.
+
+Virtual Network (VNet)
+Subnets
+Network Security Groups (NSG)
+Private Endpoints
+Public vs Private Access
+DNS Basics
+Application Gateway
+Load Balancing
+API Management
+Azure API Management
+
+Learn:
+
+API Gateway
+API Policies
+Rate Limiting
+Authentication
+API Versioning
+Developer Portal
+--------------------------------------------------------------------------
+Phase 8: Azure DevOps ⭐⭐⭐⭐⭐
+Learn
+Git
+Azure Repos
+Azure Pipelines
+YAML Pipelines
+CI/CD
+Build
+Release
+Environment Variables
+Deployment Slots
+Approval Gates
+Infrastructure as Code Basics
+ARM Templates / Bicep Basics
+Example
+Developer
+    ↓
+Git Push
+    ↓
+Azure Repos
+    ↓
+Build Pipeline
+    ↓
+Tests
+    ↓
+Deploy to App Service
+-----------------------------------------------------------------
+Phase 9: Monitoring & Reliability ⭐⭐⭐⭐⭐
+1. Application Insights
+Logs
+Exceptions
+Request Tracking
+Performance
+Dependency Tracking
+2. Azure Monitor
+Metrics
+Alerts
+Dashboards
+Log Analytics
+3. Reliability
+Health Checks
+Retry Policies
+Circuit Breaker
+Timeout
+Disaster Recovery Basics
+------------------------------------------------------------
+Phase 10: Advanced Azure Architecture
+
+For senior-level roles:
+
+Microservices
+Event-Driven Architecture
+Clean Architecture
+CQRS
+API Gateway
+Caching
+Scalability
+High Availability
+Disaster Recovery
+Cost Optimization
+Infrastructure as Code
+Cloud Design Patterns
+
+-----------------------------------------------------
+
+Azure Fundamentals
+       ↓
+Azure App Service
+       ↓
+Azure SQL Database
+       ↓
+Azure Storage
+       ↓
+Azure Functions
+       ↓
+Azure Service Bus
+       ↓
+Azure Key Vault
+       ↓
+Microsoft Entra ID
+       ↓
+Azure DevOps
+       ↓
+Application Insights
+       ↓
+Docker
+       ↓
+Microservices
+       ↓
+System Design

@@ -1,0 +1,113 @@
+Asp.net core:
+
+Phase 1: ASP.NET Core Fundamentals
+What is ASP.NET Core?
+ASP.NET Core vs .NET vs C#
+ASP.NET Core project structure
+.NET SDK and CLI
+Program.cs
+Application startup
+Dependency Injection basics
+Configuration and appsettings.json
+Environments: Development, Staging, Production
+Logging basics
+-------------------------------------------------
+Phase 2: HTTP & Web Fundamentals
+What is HTTP?
+HTTP methods: GET, POST, PUT, DELETE
+HTTP status codes
+Request and Response
+Headers
+Query Parameters
+Route Parameters
+Request Body
+JSON
+REST API principles
+----------------------------------------------------
+Phase 3: ASP.NET Core Web API ⭐
+What is Web API?
+Controllers
+Routing
+Action Methods
+Model Binding
+Model Validation
+DTOs
+Dependency Injection
+Middleware
+Global Exception Handling
+Swagger / OpenAPI
+HTTP Client
+API Versioning
+CORS
+-----------------------------------------------
+Phase 4: Database Integration
+Entity Framework Core
+DbContext
+DbSet
+Migrations
+LINQ with EF Core
+Relationships
+Repository Pattern
+Unit of Work
+Transactions
+Stored Procedures
+SQL Server Integration
+------------------------------------------------
+Phase 5: Authentication & Security ⭐⭐⭐⭐⭐
+Authentication vs Authorization
+JWT Authentication
+Role-Based Authorization
+Policy-Based Authorization
+Claims
+ASP.NET Core Identity
+OAuth 2.0
+OpenID Connect
+Microsoft Entra ID
+API Security
+HTTPS
+CORS Security
+----------------------------------------------------
+Phase 6: Advanced ASP.NET Core ⭐⭐⭐⭐⭐
+Middleware Pipeline
+Custom Middleware
+Filters
+Action Filters
+Exception Filters
+Dependency Injection Lifetimes
+Singleton vs Scoped vs Transient
+Options Pattern
+Background Services
+Hosted Services
+Caching
+Response Caching
+Distributed Caching
+Redis
+Health Checks
+Rate Limiting
+Performance Optimization
+-----------------------------------------------------
+Phase 7: Enterprise Architecture
+Clean Architecture
+SOLID Principles
+Design Patterns
+Repository Pattern
+CQRS
+MediatR
+Microservices
+API Gateway
+Service-to-Service Communication
+Event-Driven Architecture
+Azure Service Bus Integration
+------------------------------------------
+Phase 8: Testing & DevOps
+Unit Testing
+Integration Testing
+xUnit
+Moq
+API Testing
+Logging and Monitoring
+Application Insights
+Docker
+CI/CD
+Azure DevOps
+Deployment to Azure App Service

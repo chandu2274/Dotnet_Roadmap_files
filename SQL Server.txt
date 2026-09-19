@@ -1,0 +1,132 @@
+SQL Server Complete Learning Roadmap
+Phase 1: SQL Fundamentals
+What is a Database?
+What is SQL?
+SQL Server vs SQL
+Database, Tables, Rows, Columns
+Data Types
+Primary Key
+Foreign Key
+Constraints
+CREATE DATABASE
+CREATE TABLE
+ALTER TABLE
+DROP TABLE
+Basic Queries
+SELECT
+INSERT
+UPDATE
+DELETE
+WHERE
+ORDER BY
+DISTINCT
+TOP
+LIKE
+IN
+BETWEEN
+IS NULL
+--------------------------------------------
+Phase 2: SQL Queries ⭐⭐⭐⭐⭐
+Aggregate Functions
+COUNT()
+SUM()
+AVG()
+MIN()
+MAX()
+GROUP BY
+HAVING
+CASE
+COALESCE
+NULLIF
+Joins
+Inner Join
+Left Join
+Right Join
+Full Join
+Self Join
+Cross Join
+Subqueries
+Subqueries
+Correlated Subqueries
+EXISTS
+NOT EXISTS
+-------------------------------------------
+Phase 3: Database Design
+Normalization
+1NF, 2NF, 3NF
+Relationships
+One-to-One
+One-to-Many
+Many-to-Many
+Composite Keys
+Surrogate Keys
+Foreign Key Constraints
+Cascading Deletes
+Example
+Departments
+-----------
+DepartmentId
+DepartmentName
+
+Employees
+---------
+EmployeeId
+EmployeeName
+DepartmentId
+
+One Department → Many Employees
+-----------------------------------------------------
+Phase 4: Advanced SQL ⭐⭐⭐⭐⭐
+Views
+Stored Procedures
+Functions
+Temporary Tables
+Table Variables
+Common Table Expressions (CTE)
+Recursive CTE
+Window Functions
+ROW_NUMBER()
+RANK()
+DENSE_RANK()
+LEAD()
+LAG()
+Important Interview Topics
+Clustered Index
+Non-Clustered Index
+Execution Plan
+Query Optimization
+Index Seek vs Index Scan
+Transactions
+ACID Properties
+Isolation Levels
+Deadlocks
+Blocking
+Concurrency
+-----------------------------------------------
+Phase 5: SQL + EF Core
+EF Core Database Connection
+LINQ to SQL Queries
+IEnumerable vs IQueryable
+Include() and ThenInclude()
+AsNoTracking()
+EF Core Migrations
+Transactions in EF Core
+Stored Procedures with EF Core
+Raw SQL Queries
+SQL Query Performance
+N+1 Query Problem
+-----------------------------------------------------
+Phase 6: Azure SQL Database ⭐⭐⭐⭐⭐
+What is Azure SQL Database?
+SQL Server vs Azure SQL
+Create Azure SQL Database
+Connect from .NET API
+Connection Strings
+Azure SQL Firewall
+Authentication
+Microsoft Entra Authentication
+Managed Identity
+Azure SQL Security
+Azure SQL Backup
+Azure SQL Monitoring
+Azure SQL Performance Tuning

@@ -1,0 +1,167 @@
+EF core & Linq
+
+Phase 1: Database Fundamentals
+
+Before EF Core, understand:
+
+What is a database?
+What is SQL Server?
+Tables, Rows, and Columns
+Primary Key
+Foreign Key
+Relationships
+One-to-One
+One-to-Many
+Many-to-Many
+Normalization
+Basic SQL Queries
+Joins
+Indexes
+Transactions
+--------------------------------------------------------
+Phase 2: Entity Framework Core Fundamentals
+1. What is Entity Framework Core?
+What is ORM?
+Why do we use EF Core?
+EF Core vs ADO.NET
+EF Core vs Dapper
+How EF Core communicates with SQL Server
+2. EF Core Project Setup
+Install EF Core
+Create a .NET project
+Install SQL Server provider
+Configure DbContext
+Connection strings
+appsettings.json
+3. DbContext & DbSet
+What is DbContext?
+What is DbSet?
+How EF Core tracks entities
+Database connection
+Saving changes
+4. Code First Approach
+What is Code First?
+Create Entity Classes
+Create DbContext
+Create Database
+Migrations
+Update Database
+5. Database First Approach
+What is Database First?
+Existing SQL Server Database
+Reverse Engineering
+Scaffold-DbContext
+6. CRUD Operations ⭐
+Insert
+Select
+Update
+Delete
+SaveChanges()
+SaveChangesAsync()
+--------------------------------------------
+Phase 3: LINQ Fundamentals
+1. What is LINQ?
+Language Integrated Query
+Why do we use LINQ?
+LINQ with Collections
+LINQ with Databases
+2. LINQ Methods
+Where()
+Select()
+SelectMany()
+OrderBy()
+OrderByDescending()
+ThenBy()
+ThenByDescending()
+First()
+FirstOrDefault()
+Single()
+SingleOrDefault()
+Last()
+LastOrDefault()
+Any()
+All()
+Count()
+Sum()
+Average()
+Min()
+Max()
+Contains()
+Distinct()
+Skip()
+Take()
+3. LINQ Joins
+Inner Join
+Left Join
+Group Join
+Navigation Properties
+Include()
+ThenInclude()
+4. LINQ Advanced
+Method Syntax
+Query Syntax
+Lambda Expressions
+Deferred Execution
+Immediate Execution
+IEnumerable
+IQueryable
+Expression Trees
+LINQ Performance
+-----------------------------------------------------------
+Phase 4: EF Core Relationships ⭐⭐⭐⭐⭐
+Learn
+One-to-One Relationship
+One-to-Many Relationship
+Many-to-Many Relationship
+Foreign Keys
+Navigation Properties
+Fluent API
+Data Annotations
+OnModelCreating()
+Example
+Department
+    |
+    | 1
+    |
+    | Many
+    ↓
+Employees
+
+One department can have many employees.
+----------------------------------------------------------------
+Phase 5: Advanced EF Core ⭐⭐⭐⭐⭐
+Change Tracking
+AsNoTracking()
+Eager Loading
+Lazy Loading
+Explicit Loading
+Transactions
+Concurrency
+Optimistic Concurrency
+Database Transactions
+Raw SQL Queries
+Stored Procedures
+Compiled Queries
+Query Splitting
+Global Query Filters
+Shadow Properties
+Value Conversions
+Interceptors
+Auditing
+Soft Delete
+Performance Optimization
+Phase 6: Enterprise-Level EF Core
+Important for 6-Year Experience
+Repository Pattern
+Unit of Work
+Generic Repository
+Specification Pattern
+Clean Architecture
+CQRS
+MediatR
+Transactions
+Unit Testing
+Integration Testing
+SQL Query Optimization
+Database Design
+Microservices Database Patterns

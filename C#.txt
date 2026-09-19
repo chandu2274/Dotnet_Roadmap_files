@@ -1,0 +1,133 @@
+C#
+
+Phase 1: C# Fundamentals
+
+What is C#? -- done 
+.NET vs C# -- done
+Variables and Data Types -- done
+Type Casting -- done
+Operators
+Conditional Statements
+Loops
+Methods
+Arrays
+Strings
+----------------------------------------------------
+Phase 2: Object-Oriented Programming (OOP)
+Classes and Objects
+Constructors
+Encapsulation
+Inheritance
+Polymorphism
+Abstraction
+Interfaces
+Abstract Classes
+Access Modifiers
+Static Members
+-------------------------------------------------------
+Phase 3: Intermediate C#
+Collections
+Generics
+Exception Handling
+Delegates
+Events
+Lambda Expressions
+LINQ
+Nullable Types
+Enums
+Structs
+Records
+Tuples
+Pattern Matching
+-----------------------------------------------
+Phase 4: Advanced C# ⭐
+ref, out, and in
+Value Types vs Reference Types
+Stack vs Heap
+Boxing and Unboxing
+Garbage Collection
+IDisposable and using
+async / await
+Task
+CancellationToken
+Multithreading
+Thread Safety
+Locking
+Dependency Injection Concepts
+Reflection
+Attributes
+Extension Methods
+Expression Trees
+------------------------------------------
+Phase 5: Senior-Level C# ⭐⭐⭐⭐⭐
+SOLID Principles
+Design Patterns
+Clean Code
+Clean Architecture Concepts
+Performance Optimization
+Memory Management
+Threading and Concurrency
+Unit Testing
+Mocking
+Real-World C# Project
+
+------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------
+
+-> What is C#?
+C# is a programming language developed by Microsoft. It is used to build web applications, APIs, desktop applications, and cloud applications.
+
+-> What is .NET?
+.NET is the platform that provides the tools and runtime needed to build and run C# applications.
+
+-> What is the difference between C# and .NET?
+Answer: C# is a programming language developed by Microsoft, while .NET is a development platform used to build and run applications written in C# and other supported languages.
+
+-> What is .NET Runtime?
+Answer: The .NET Runtime is the execution environment that runs .NET applications. It manages tasks such as executing code, memory management, and garbage collection.
+Example: When you run dotnet run, the .NET Runtime executes your application
+
+-> Variables and Data Types
+A variable is a named place in memory used to store a value.
+
+ex: int age = 25;
+
+Here:
+
+int → data type
+age → variable name
+25 → value
+
+-> Common C# Data Types
+int,long,double,decimal,float,char,string,bool
+
+->Type Casting
+Type casting means converting one data type into another data type.
+
+Ex: int age = 25;
+double number = age;
+
+Console.WriteLine(number);
+
+->how many types of casting
+
+Implicit Casting and Explicit Casting
+
+string ageText = "30";
+int age = int.Parse(ageText);
+int age = Convert.ToInt32(ageText);
+
+->Operators
+
+Operators are symbols used to perform operations on values and variables.
+
+
+
+
+
+
+
+
+
+
+
